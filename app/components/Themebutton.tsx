@@ -1,3 +1,11 @@
+//Themebutton
+
+//Dit is een React-component genaamd Themebutton die een knop weergeeft waarmee de gebruiker het thema van de applicatie kan 
+//wijzigen tussen licht en donker. Het maakt gebruik van het useTheme-hook van de "next-themes"-bibliotheek en render een 
+//knop met een zon- of maanpictogram, afhankelijk van het huidige thema. De knop wordt pas weergegeven nadat de component 
+//volledig is gemonteerd, en bij het klikken wordt het thema omgeschakeld.
+
+
 //hydrateren op de cliënt niet op de server
 "use client";
 

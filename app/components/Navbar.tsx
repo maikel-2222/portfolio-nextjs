@@ -42,16 +42,6 @@ export default function Navbar() {
                                  Home
                                 </Link>
                                 <Link 
-                                 href="/guestbook" 
-                                 prefetch className={`${
-                                    pathname === "/guestbook"
-                                     ? 'border-blue-900 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' 
-                                     : ' border-transparent text-gray-500 dark:text-grey-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
-                                    }`}
-                                    >
-                                 Guestbook
-                                </Link>
-                                <Link 
                                  href="/projects" 
                                  prefetch className={`${
                                     pathname === "/projects"
@@ -60,6 +50,16 @@ export default function Navbar() {
                                     }`}
                                     >
                                  Projects
+                                </Link>
+                                <Link 
+                                 href="/contact" 
+                                 prefetch className={`${
+                                    pathname === "/contact"
+                                     ? 'border-blue-900 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' 
+                                     : ' border-transparent text-gray-500 dark:text-grey-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
+                                    }`}
+                                    >
+                                 Contact
                                 </Link>
                                 <Themebutton /> 
                             </div>
@@ -94,15 +94,6 @@ export default function Navbar() {
                      Home
                     </Link>
                     <Link 
-                    href="/guestbook" 
-                    prefetch 
-                    className={`${
-                        pathname == "/guestbook"
-                         ? 'bg-blue-50 border-blue-500 text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800 ' 
-                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
-                     Guestbook
-                    </Link>
-                    <Link 
                     href="/projects" 
                     prefetch 
                     className={`${
@@ -110,6 +101,15 @@ export default function Navbar() {
                          ? 'bg-blue-50 border-blue-500 text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800 ' 
                          : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
                      Projects
+                    </Link>
+                    <Link 
+                    href="/contact" 
+                    prefetch 
+                    className={`${
+                        pathname == "/contact"
+                         ? 'bg-blue-50 border-blue-500 text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800 ' 
+                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
+                     Contact
                     </Link>
                  </div>
                 </Disclosure.Panel>
