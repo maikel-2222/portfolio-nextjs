@@ -27,7 +27,7 @@ export default function Home() {
             </p>
 
             <div className="flex space-x-5 pt-6">
-              <a href="" target="_blank">
+              <a href="https://github.com/maikel-2222" target="_blank">
                 <svg
                 viewBox="0 0 1024 1024"
                 fill="currentColor"
@@ -37,7 +37,7 @@ export default function Home() {
                 </svg>
               </a>
 
-              <a href="" target="_blank">
+              <a href="https://nl.linkedin.com/in/maikel-okken-984aa51ba" target="_blank">
                 <svg
                   viewBox="0 0 1024 1024"
                   fill="currentColor"
@@ -47,7 +47,7 @@ export default function Home() {
                 </svg>
               </a>
 
-              <a href="" target="_blank">
+              <a href="https://www.facebook.com/Okken1234/" target="_blank">
                 <svg
                   viewBox="0 0 1024 1024"
                   fill="currentColor"
@@ -57,7 +57,7 @@ export default function Home() {
                 </svg>
               </a>
 
-              <a href="" target="_blank">
+              <a href="mailto:maikelokken@hotmail.com" target="_blank">
                 <svg
                   viewBox="0 0 1024 1024"
                   fill="currentColor"
