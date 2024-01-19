@@ -100,7 +100,7 @@ export default function Navbar() {
                     className={`${
                         pathname == "/"
                          ? 'bg-blue-50 border-blue-500 text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800 ' 
-                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
+                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-black block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
                      Home
                     </Link>
                     <Link 
@@ -109,7 +109,7 @@ export default function Navbar() {
                     className={`${
                         pathname == "/projects"
                          ? 'bg-blue-50 border-blue-500 text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800 ' 
-                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
+                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-black block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
                      Projects
                     </Link>
                     <Link 
@@ -118,7 +118,7 @@ export default function Navbar() {
                     className={`${
                         pathname == "/contact"
                          ? 'bg-blue-50 border-blue-500 text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800 ' 
-                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
+                         : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-black block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
                      Contact
                     </Link>
                     <Link 
@@ -127,7 +127,7 @@ export default function Navbar() {
                     className={`${
                         pathname == "/CV.pdf"
                          ? 'bg-blue-50 border-blue-500 text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800 ' 
-                         : 'border-transparent text-blue-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
+                         : 'border-transparent text-blue-500 hover:bg-gray-50 hover:border-gray-300 hover:text-black block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
                      CV
                     </Link>
                  </div>
