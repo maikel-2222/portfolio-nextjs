@@ -123,7 +123,7 @@ export default function Navbar() {
                      Contact
                     </Link>
                     <Link 
-                    href="/CV.pdf" 
+                    href="/CV Maikel Okken.pdf" 
                     prefetch 
                     className={`${
                         pathname == "/CV Maikel Okken.pdf"
