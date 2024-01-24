@@ -11,6 +11,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Themebutton from "./Themebutton";
 
+
 export default function Navbar() {
 
     let pathname = usePathname() || '/'
@@ -62,7 +63,7 @@ export default function Navbar() {
                                  Contact
                                 </Link>
                                 <Link 
-                                 href="/CV.pdf" 
+                                 href="/CV Maikel Okken.pdf" 
                                  prefetch className={`${
                                     pathname === "/CV.pdf"
                                      ? 'border-blue-900 dark:text-blue-500 h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' 
@@ -125,9 +126,9 @@ export default function Navbar() {
                     href="/CV.pdf" 
                     prefetch 
                     className={`${
-                        pathname == "/CV.pdf"
+                        pathname == "/CV Maikel Okken.pdf"
                          ? 'bg-blue-50 border-blue-500 text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800 ' 
-                         : 'border-transparent text-blue-500 hover:bg-gray-50 hover:border-gray-300 hover:text-black block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white  '}`}>
+                         : 'border-transparent text-blue-500 hover:bg-gray-50 hover:border-blue-500 hover:text-black block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-blue-500  '}`}>
                      CV
                     </Link>
                  </div>
