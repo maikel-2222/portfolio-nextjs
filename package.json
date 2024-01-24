@@ -11,6 +11,8 @@
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@prisma/client": "^5.5.2",
+    "@sanity/schema": "^3.26.0",
+    "@sanity/vision": "^3.26.0",
     "next": "14.0.1",
     "next-sanity": "^5.5.11",
     "next-themes": "^0.2.1",
