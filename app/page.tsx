@@ -14,7 +14,7 @@ export default function Home() {
       <div className="items-center space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
         <div className="flex flex-col items-center pt-8">
           <Image 
-            alt="picture from maikel" 
+            alt="picture from maikel&apos;"
             src={Me}  
             className="h-48 w-48 rounded-full object-cover object-top "
             />
